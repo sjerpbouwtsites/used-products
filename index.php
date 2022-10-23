@@ -58,7 +58,7 @@ function listFolderFiles($dir)
 
                 <source src='/used-products/$ff/$pf'
                         type='audio/$file_ext'>
-
+                        $geen_streepje
             </audio>";
                 echo "</div>";
             }
