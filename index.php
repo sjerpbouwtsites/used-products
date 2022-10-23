@@ -151,6 +151,7 @@ function listFolderFiles($dir)
 
         .mooie-lijst-wrap {
             margin: 0 -20px;
+            max-width: 100%;
         }
 
         .mooie-lijst {
