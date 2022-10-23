@@ -165,7 +165,20 @@ function listFolderFiles($dir)
             max-width: calc(100% - 40px);
             justify-content: space-around;
             flex-wrap: wrap;
+        }
 
+        @media (max-width: 600px) {
+            .mooie-lijst {
+                font-size: 1.4em;
+                padding-left: 0;
+            }
+        }
+
+        video,
+        audio,
+        img {
+            max-width: 100%;
+            height: auto;
         }
 
         .some-wrap {
