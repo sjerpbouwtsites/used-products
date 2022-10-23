@@ -54,7 +54,7 @@ function listFolderFiles($dir)
                 echo "
             <a class='mooie-lijst-links audio-link' target='_blank' href='/used-products/$ff/$pf'>$file_name $file_ext</a>
             ";
-                echo "<audio controls width='360'>
+                echo "<audio controls preload width='360'>
 
                 <source src='/used-products/$ff/$pf'
                         type='audio/$file_ext'>
@@ -179,6 +179,10 @@ function listFolderFiles($dir)
         img {
             max-width: 100%;
             height: auto;
+        }
+
+        audio {
+            height: 30px;
         }
 
         .some-wrap {
