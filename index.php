@@ -23,7 +23,7 @@ function listFolderFiles($dir)
 
         foreach ($proj_files as $index => $pf) {
             if ($index < 2) continue;
-            $is_tab = preg_match('/pdf|doc|docx|gp/', $pf);
+            $is_tab = preg_match('/pdf|doc|docx|gp|jpg/', $pf);
             $is_video = preg_match('/mp4|mov/', $pf);
             $is_audio = preg_match('/mp3/', $pf);
             $split_at_dot = explode('.', $pf);
